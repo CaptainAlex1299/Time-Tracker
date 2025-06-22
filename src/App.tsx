@@ -29,6 +29,8 @@ function TaskTracker() {
     setTaskHours("");
   };
 
+  const totalHours = tasks.reduce((sum, task) => sum + task.hours, 0);
+
   return (
     <div>
       <h2>Time Tracker</h2>
@@ -59,6 +61,7 @@ function TaskTracker() {
           </li>
         ))}
       </ul>
+      <h3>Total Hours: {totalHours}</h3>
     </div>
   );
 }
