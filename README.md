@@ -1,6 +1,8 @@
 # Task Tracker
 A simple time tracking app built with React, TypeScript, and Vite.
 
+[🔗 Live Demo](https://metrolink.host/AlexanderForrest/TimeTracker/)  
+
 ## Features
 - Add tasks with a name and number of hours
 - Input validation
