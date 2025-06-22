@@ -20,3 +20,6 @@ A simple time tracking app built with React, TypeScript, and Vite.
 - Edit existing tasks directly in the list
 - Delete tasks individually
 - Add total hours summary
+- Save tasks persistently using:
+  - Browser localStorage or cookies for quick client-side storage
+  - A PHP backend with a database to store tasks permanently
